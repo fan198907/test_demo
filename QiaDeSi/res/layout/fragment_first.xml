@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView 
+                android:layout_width="0dp"
+	        	android:layout_weight="1"
+	        	android:id="@+id/firstTvFood"
+                android:layout_height="wrap_content"
+                android:text="@string/tv_first_img"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/foodorg"
+                android:gravity="center_horizontal"/>
+
+            <TextView 
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstTvScenic"
+                android:layout_weight="1"
+                android:text="@string/tv_second_img"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/traver"
+                android:gravity="center_horizontal"/>
+
+            <TextView 
+                android:layout_width="0dp"
+	        	android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstTvHotel "
+                android:text="@string/tv_three_img"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/hotel"
+                android:gravity="center_horizontal"/>
+            
+        </TableRow>
+        <TableRow 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:padding="10dp">
+
+            <TextView 
+                android:layout_width="0dp"
+	        	android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstTvFriendly"
+                android:text="@string/tv_go_together"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/together"
+                android:gravity="center_horizontal"/>
+
+            <TextView 
+                android:layout_width="0dp"
+	        	android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstTvShopping"
+                android:text="@string/tv_shop"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/shop"
+                android:gravity="center_horizontal"/>
+
+            <TextView 
+                android:layout_width="0dp"
+	        	android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:id="@+id/firstTvAll"
+                android:text="@string/tv_all"
+                android:textColor="#444444"
+                android:drawableTop="@drawable/more"
+                android:gravity="center_horizontal"/>
+            
+        </TableRow>
+</TableLayout>

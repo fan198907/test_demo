@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/J2SE-1.5"/>
+	<classpathentry kind="lib" path="D:/soft/tomcat/apache-tomcat-8.0.14/lib/servlet-api.jar"/>
+	<classpathentry kind="lib" path="D:/soft/eclipse_jee/eclipse/plugins/json-lib-2.4-jdk15.jar"/>
+	<classpathentry kind="lib" path="D:/soft/eclipse_jee/eclipse/plugins/fastjson-1.1.36.jar"/>
+	<classpathentry kind="output" path="bin"/>
+</classpath>
